@@ -1,0 +1,27 @@
+# Environment & secrets
+.env
+
+# Databases
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Alembic archive
+migration_archive/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Automation internals (vault only)
+public_repo/
